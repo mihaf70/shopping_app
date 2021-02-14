@@ -93,7 +93,7 @@ const MainScreen = (props: Props) => {
     }
   };
 
-  function removeGoalHandler(Id: string): void {
+  function removeGoalHandler(Id: string) {
     setProducts((products: Product[]) => {
       return products.filter((item: Product) => item.productId !== Id);
     });
@@ -118,7 +118,7 @@ const MainScreen = (props: Props) => {
     }
   }
 
-  function deleteList() {
+  function deleteList():void {
     setProducts("");
     removeItemValue();
   }
