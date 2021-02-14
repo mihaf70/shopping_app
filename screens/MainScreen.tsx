@@ -16,16 +16,7 @@ type Product = {
 };
 
 const MainScreen = (props: Props) => {
-  const getStoredData = async () => {
-    try {
-      const retrieved_prod: any = await AsyncStorage.getItem("stored_products");
-      let prod: Product[] = JSON.parse(retrieved_prod);
-      return prod;
-    } catch (err) {
-      alert(err);
-    }
-  };
-
+  
   const input: string = props.navigation.getParam("input");
   const [products, setProducts] = useState<any>([]);
 
@@ -42,6 +33,16 @@ const MainScreen = (props: Props) => {
       addProduct({ productId: id, productName: input });
     }
   }, [input]);
+  
+   const getStoredData = async () => {
+    try {
+      const retrieved_prod: any = await AsyncStorage.getItem("stored_products");
+      let prod: Product[] = JSON.parse(retrieved_prod);
+      return prod;
+    } catch (err) {
+      alert(err);
+    }
+  };
 
   function addProduct(prod: Product) {
     setProducts([...products, prod]);
