@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d6322690-7cfd-4af7-af1a-62e9827f1b02" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Card.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Goalitem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Goalitem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constants/colors.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/constants/colors.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/AddingScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/screens/AddingScreen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/MainScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/screens/MainScreen.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1o21hinTsS2ksaNfkG2tDfMjPyu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d6322690-7cfd-4af7-af1a-62e9827f1b02" name="Default Changelist" comment="" />
+      <created>1612469997988</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612469997988</updated>
+      <workItem from="1612470006797" duration="55000" />
+    </task>
+    <servers />
+  </component>
+</project>
