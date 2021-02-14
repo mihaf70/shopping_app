@@ -34,9 +34,9 @@ const AddingScreen = (props: Props) => {
   const [enteredProduct, setEnteredProduct] = useState<string>("");
   const [ammount, setAmmount] = useState<string>("");
   const [productsSuggestions, setProductsSuggestions] = useState<any>([]);
-  const [filteredSuggestons, setFilteredSuggestions] = useState<any>([]);
+  const [filteredSuggestons, setFilteredSuggestions] = useState<Product[]>([]);
 
-  const findProduct = (query: string) => {
+ function findProduct(query: string) {
     if (query) {
       const regex = new RegExp(`${query.trim()}`, "i");
 
@@ -50,7 +50,7 @@ const AddingScreen = (props: Props) => {
     }
   };
 
-  function setSuggestion(suggestion: any) {
+  function setSuggestion(suggestion: Product):void {
     let text: string = JSON.stringify(suggestion);
     text = text.replace(/"/gi, "");
     setEnteredProduct(text);
@@ -263,11 +263,4 @@ const styles = StyleSheet.create({
 
 export default AddingScreen;
 
-/*
-<TextInput blurOnSubmit autoCapitalize="none"
-                  placeholder="Nazwa przedmiotu"
-                  style={styles.input}
-                  onChangeText={enteredProductHandler}
-                  value={enteredProduct}
-                  />
-                  */
+
