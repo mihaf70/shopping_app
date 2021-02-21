@@ -14,17 +14,6 @@ import Autocomplete from "react-native-autocomplete-input";
 import AsyncStorage from "@react-native-community/async-storage";
 import { TouchableOpacity } from "react-native-gesture-handler";
 
-
-//cos tam zostalo pozmieniane 
-
-//druga zmiana
-
-//trzecia zmiana
-
-//czwarta zmiana
-
-//piąta zmiana
-
 type Props = {
   navigation: any;
   style: any;
