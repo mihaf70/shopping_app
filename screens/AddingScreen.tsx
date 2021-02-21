@@ -19,6 +19,8 @@ import { TouchableOpacity } from "react-native-gesture-handler";
 
 //druga zmiana
 
+//trzecia zmiana
+
 type Props = {
   navigation: any;
   style: any;
